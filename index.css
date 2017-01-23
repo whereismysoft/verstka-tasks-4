@@ -16,3 +16,9 @@ p
 {
     
 }
+article
+{
+	text-align: center;
+	font: 20px Arial;
+	column-span: all;
+	}

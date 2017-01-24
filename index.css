@@ -1,24 +1,59 @@
-h1 
+figure
 {
-text-align: center;
-    font: 30px Arial;
+	text-align: center;
 	column-span: all;
 }
+
+h1 
+{
+	text-align: center;
+    font: 45px PLAYBILL;
+	letter-spacing: 7.5px;
+	column-span: all;
+    margin-top: 0.1em;
+	margin-bottom: 0.1em;
+}
+
+aside
+{
+	text-align: center;
+    font: 20px PLAYBILL;
+	letter-spacing: 4.5px;
+	column-span: all;
+	border-top: 3px solid black ;
+	border-bottom: 3px solid black ;
+	background-color: rgb(245,245,245);
+	margin-bottom:1.5em;
+}
+
 body 
 {
- column-count: 4;   
+    column-count: 3;
+    column-rule: 1px solid #ccc;
+    font: 15px Comic Sans Ms; 
 }
+
 h2
 {
-font-size: 15px;	
+    font-size: 1.2em;
+    margin-bottom: 0.1em;	
 }
+
 p
 {
-    
+
 }
+
 article
 {
 	text-align: center;
 	font: 20px Arial;
 	column-span: all;
+	}
+
+.zitaty
+	{
+		text-align: left;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
 	}
